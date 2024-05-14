@@ -1,0 +1,46 @@
+.nav-container {
+  background-color: whitesmoke;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  font-family: 'jamsil';
+  justify-content: space-between;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-right {
+  display: flex;
+}
+
+
+/* nav 아이템에 대한 클래스 */
+.logo {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.cart {
+  color: gray;
+}
+
+.login {
+  color: gray;
+}
+
+@font-face {
+  font-family: 'jamsil';
+  src: url('../The Jamsil 1 Thin.ttf');
+}
