@@ -1,0 +1,13 @@
+.postList-container {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 10px
+}
+
+.img-container {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-right: 20px;
+}

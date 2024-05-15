@@ -37,10 +37,6 @@ app.get('/dbTest', async (req, res) => {
   res.json(test1)
 })
 
+app.get('*')
 
-
-
-app.get('/dbGetData', async (req, res) => {
-  let result = await db.collection('test1').find().toArray();
-})
 

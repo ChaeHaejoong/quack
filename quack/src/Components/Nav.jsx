@@ -12,7 +12,7 @@ function Nav() {
         <div className="nav-item logo"><Link to="/">QUACK</Link></div>
         <div className="nav-item"><Link to="/about">ABOUT</Link></div>
         <div className="nav-item">SHOP</div>
-        <div className="nav-item">COMMUNITY</div>
+        <div className="nav-item"><Link to={"/community"}>COMMUNITY</Link></div>
       </div>
       <div className="nav-right">
         <div className="nav-item login"><FontAwesomeIcon icon={faUser} /> 로그인</div>
