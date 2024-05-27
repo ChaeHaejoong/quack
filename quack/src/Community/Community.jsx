@@ -1,7 +1,6 @@
 import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import CommunityPostList from "./CommunityPostList";
 
 function Community() {
   const [data, setData] = useState(null);
