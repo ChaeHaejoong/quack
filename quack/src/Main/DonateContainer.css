@@ -1,0 +1,36 @@
+.donate-container {
+  height: 500px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.duckImg {
+  width: 40px;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 69px;
+  right: calc(74px + 18%);
+}
+
+.money {
+  font-family: 'jamsil';
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.donate-title {
+  font-family: 'jamsil';
+  font-size: 50px;
+}
+
+.test {
+  font-family: 'jamsil';
+  position: absolute;
+  bottom: 30px;
+  /* right: calc(10px + 18%); */
+  text-align: center;
+}

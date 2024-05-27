@@ -7,3 +7,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul {margin: 0;}
 .mar-LR {
   margin: 0 18%;
 }
+
+
+@font-face {
+  font-family: 'jamsil';
+  src: url('../public/The\ Jamsil\ 2\ Light.ttf');
+}
